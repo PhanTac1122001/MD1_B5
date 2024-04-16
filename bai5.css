@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+   position: sticky;
+   background-color: aqua;
+   width: 300px;
+   display: none;
+   position: absolute;
+
+}
+img{
+    width: 50px;
+}
+
+li{
+    position: relative;
+    display: block;
+    color: white;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+li:active .navbar{
+    display: block;
+}
+li:active {
+    height: 500px;
+    
+}
